@@ -1,0 +1,94 @@
+.User
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 160px;
+  grid-auto-rows: min(50px, auto);
+}
+
+.profile-picture
+{
+  margin-left: 55%;
+  margin-top: 30px;
+  margin-right: auto;
+}
+
+.profile-picture > img
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.user-desc
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+}
+
+.user-desc > span > span
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.user-desc > span > button
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.user-desc-line-1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-desc-line-2
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.username
+{
+    font-size: 18px;
+}
+
+.posts-header-row
+{
+    margin-top: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.posts-header-row > div
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.posts-header-row > div:hover
+{
+    cursor: pointer;
+}
+
+.posts-header
+{
+    text-transform: capitalize;
+    position: relative;
+    top: -3px;
+}
